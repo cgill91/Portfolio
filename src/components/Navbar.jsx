@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
-                <h1 className='text-4xl sm:text-7xl font-bold text-pink-600'>Colton Gillmore</h1>
+                <h1 className='text-4xl sm:text-3xl font-bold text-pink-600'>Colton Gillmore</h1>
             </div>
             
             {/* menu */}
