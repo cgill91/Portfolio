@@ -13,9 +13,9 @@ const Home = () => {
                 <p className='text-3xl sm:text-3xl pt-4 max-w-[700px] text-[#8892b0]'>Currently I am working on building exceptional digital expierences.</p>
                 <p className='text-3xl sm:text-3xl pb-4 text-[#8892b0]'>While specializing in React applications.</p>
                 <div>
-                    <button className='text-white border-2 px-7 py-4 my-2 flex items-center hover:bg-pink-700 hover:border-pink-700'>
+                    <button className='text-white border-2 px-7 py-4 my-2 flex items-center font-bold hover:bg-pink-700 hover:border-pink-700'>
                         View Work
-                        <span className='group-hover:rotate-90 duration-300'>
+                        <span className='group hover:rotate-90 duration-300'>
                             <HiArrowRight className='ml-3' />
                             </span>
                     </button>        
