@@ -48,10 +48,10 @@ const Work = () => {
               {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Robot-Door
+                  Chore-Door
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='https://cgill-choredoor.netlify.app/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Demo
                     </button>
@@ -75,7 +75,7 @@ const Work = () => {
                  MiniReddit
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='https://cgill-minireddit.netlify.app/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Demo
                     </button>
@@ -98,12 +98,12 @@ const Work = () => {
                   Fotomatic
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='https://cgill-fotomatic.netlify.app/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Demo
                     </button>
                   </a>
-                  <a href='/'>
+                  <a href='https://github.com/cgill91/Fotomatic'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Code
                     </button>
