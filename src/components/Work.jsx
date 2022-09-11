@@ -127,7 +127,7 @@ const Work = () => {
                       Demo
                     </button>
                   </a>
-                  <a href='/'>
+                  <a href='https://github.com/cgill91/Appointment-Planner'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Code
                     </button>
@@ -150,7 +150,7 @@ const Work = () => {
                       Demo
                     </button>
                   </a>
-                  <a href='/'>
+                  <a href='https://github.com/cgill91/Jamming'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Code
                     </button>
