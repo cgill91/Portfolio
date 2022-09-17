@@ -46,9 +46,9 @@ const Skills = () => {
                     <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind" /> 
                     <p className='my-4'>Tailwind</p>
                 </div>
-                <div className='hidden shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={HTML} alt="HTML" /> 
-                    <p className='my-4'>HTML</p>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src="https://img.icons8.com/color/250/000000/bootstrap.png" alt="Bootstrap" /> 
+                    <p className='my-4'>Bootstrap</p>
                 </div>
             </div>
         </div>
