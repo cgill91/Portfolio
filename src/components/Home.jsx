@@ -10,7 +10,7 @@ const Home = () => {
             <div className='max-w-[900px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className='text-2xl font-bold text-pink-700'>Hi, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Colton Gillmore</h1>
-                <h2 className='text-4xl sm:text-7xl font-bold'>I am a front-end developer.</h2>
+                <h2 className='text-4xl sm:text-7xl font-bold text-pink-700'>I am a front-end developer.</h2>
                 <p className='text-3xl sm:text-3xl pt-4 max-w-[700px] text-[#8892b0]'>Currently I am working on building exceptional digital experiences.</p>
                 <p className='text-3xl sm:text-3xl pb-4 text-[#8892b0]'>While specializing in React applications.</p>
                 <div>
