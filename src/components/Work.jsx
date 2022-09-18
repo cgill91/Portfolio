@@ -5,7 +5,7 @@ import NumberGame3 from '../assets/NumberGame3.png';
 
 const Work = () => {
     return (
-      <section name='work' className='w-full md:h-75% text-gray-300 bg-[#0a192f]'>
+      <section name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
@@ -34,6 +34,7 @@ const Work = () => {
                     </button>
                   </a>
                   <a href='https://github.com/cgill91/number_guesser'>
+      
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Code
                     </button>
