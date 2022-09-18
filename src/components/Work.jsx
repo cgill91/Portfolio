@@ -1,7 +1,9 @@
 import React from 'react';
-import NumberGame1 from '../assets/NumberGame1.png';
-import NumberGame2 from '../assets/NumberGame2.png';
-import NumberGame3 from '../assets/NumberGame3.png';
+import NumberGame from '../assets/NumberGame.png';
+import Planner from '../assets/Planner.png';
+import Chore from '../assets/Chore.png';
+import Reddit from '../assets/Reddit.png';
+import Fotomatic from '../assets/Fotomatic.png';
 
 const Work = () => {
     return (
@@ -19,7 +21,7 @@ const Work = () => {
   
               {/* Grid Item */}
             <div
-              style={{ backgroundImage: `url(${NumberGame1})` }}
+              style={{ backgroundImage: `url(${NumberGame})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
               {/* Hover Effects */}
@@ -43,7 +45,8 @@ const Work = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${NumberGame2})` }}
+              style={{ backgroundImage: `url(${Chore})` }}
+              class= 'h-2rem w-2rem'
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
               {/* Hover Effects */}
@@ -67,7 +70,7 @@ const Work = () => {
             </div>
               {/* Grid Item */}
             <div
-              style={{ backgroundImage: `url(${NumberGame3})` }}
+              style={{ backgroundImage: `url(${Reddit})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
               {/* Hover Effects */}
@@ -90,7 +93,8 @@ const Work = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${NumberGame1})` }}
+              style={{ backgroundImage: `url(${Fotomatic})` }}
+              class= 'h-full w-full'
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
               {/* Hover Effects */}
@@ -114,7 +118,8 @@ const Work = () => {
             </div>
               {/* Grid Item */}
             <div
-              style={{ backgroundImage: `url(${NumberGame2})` }}
+              style={{ backgroundImage: `url(${Planner})` }}
+              class= 'h-auto w-auto'
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
               {/* Hover Effects */}
@@ -123,7 +128,7 @@ const Work = () => {
                   Appointment Planner
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='https://plan-appointments.netlify.app/contacts'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Demo
                     </button>
@@ -137,8 +142,8 @@ const Work = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${NumberGame3})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+              style={{ backgroundImage: `url(${NumberGame})` }}
+              className=' hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
               {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
